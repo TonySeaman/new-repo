@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management System</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Hotel</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Reservations</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="rooms">
+            <h2>Available Rooms</h2>
+            <div class="room">
+                <img src="images/room1.jpg" alt="Room 1">
+                <h3>Standard Room</h3>
+                <p>Price: $100/night</p>
+                <button onclick="bookRoom('Standard Room')">Book Now</button>
+            </div>
+            <div class="room">
+                <img src="images/room2.jpg" alt="Room 2">
+                <h3>Deluxe Room</h3>
+                <p>Price: $150/night</p>
+                <button onclick="bookRoom('Deluxe Room')">Book Now</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hotel Management. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
